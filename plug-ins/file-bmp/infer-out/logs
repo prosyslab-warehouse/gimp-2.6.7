@@ -1,0 +1,3449 @@
+[12432][environment] CWD = /src/gimp-2.6.7/plug-ins/file-bmp
+[12432][environment] No .inferconfig file found
+[12432][environment] Project root = /src/gimp-2.6.7/plug-ins/file-bmp
+[12432][environment] INFER_ARGS =   @/tmp/args.tmp.221b26
+[12432][environment] command line arguments:   /app/infer/infer/bin/infer capture -- make
+[12432][environment] Available memory at startup: 159568 MB
+[12432][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[12432][environment] Scheduler: file
+[12432][environment] Cores used: 26
+[12432][environment] Infer version v1.0.0-8745e69ef
+[12432][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[12432][environment] 
+[12432][   progress] Capturing in make/cc mode...
+[12432][environment] Running command make with env:
+[12432][environment] (Extend((PATH /app/infer/infer/bin/../lib/wrappers:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)(INFER_OLD_PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)))
+[12432][environment] 
+
+[12434][environment] CWD = /src/gimp-2.6.7/plug-ins/file-bmp
+[12434][environment] No .inferconfig file found
+[12434][environment] Project root = /src/gimp-2.6.7/plug-ins/file-bmp
+[12434][environment] INFER_ARGS =   @/tmp/args.tmp.a7119f
+[12434][environment] command line arguments:   gcc -DHAVE_CONFIG_H -I. -I../.. -I../.. -pthread
+[12434][environment]                           -I/usr/include/gtk-2.0
+[12434][environment]                           -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include
+[12434][environment]                           -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo
+[12434][environment]                           -I/usr/include/pango-1.0 -I/usr/include/atk-1.0
+[12434][environment]                           -I/usr/include/cairo -I/usr/include/pixman-1
+[12434][environment]                           -I/usr/include/gdk-pixbuf-2.0
+[12434][environment]                           -I/usr/include/libpng16 -I/usr/include/pango-1.0
+[12434][environment]                           -I/usr/include/harfbuzz -I/usr/include/pango-1.0
+[12434][environment]                           -I/usr/include/freetype2 -I/usr/include/libpng16
+[12434][environment]                           -I/usr/include/freetype2 -I/usr/include/libpng16
+[12434][environment]                           -I/usr/include/glib-2.0
+[12434][environment]                           -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+[12434][environment]                           -I/usr/local/include -DGIMP_DISABLE_DEPRECATED
+[12434][environment]                           -DGDK_MULTIHEAD_SAFE -DGTK_MULTIHEAD_SAFE -g -O2
+[12434][environment]                           -Wall -Wdeclaration-after-statement
+[12434][environment]                           -Wmissing-prototypes -Wmissing-declarations
+[12434][environment]                           -Winit-self -Wpointer-arith -Wold-style-definition
+[12434][environment]                           -MT bmp.o -MD -MP -MF .deps/bmp.Tpo -c -o bmp.o
+[12434][environment]                           bmp.c
+[12434][environment] Available memory at startup: 159524 MB
+[12434][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[12434][      debug] 
+[12434][      debug] *** Beginning capture of file /src/gimp-2.6.7/plug-ins/file-bmp/bmp.c ***
+[12434][      debug] Loading the following linters files: /app/infer/infer/bin/../lib/linter_rules/linters.al
+[12434][      debug] Elapsed: 1.409s.
+[12434][      debug] GC stats for capture:
+[12434][      debug]   minor_words: 9.75383e+07
+[12434][      debug]   promoted_words: 6.54816e+06
+[12434][      debug]   major_words: 6.84153e+06
+[12434][      debug]   minor_collections: 97
+[12434][      debug]   major_collections: 7
+[12434][      debug]   compactions: 0
+[12434][      debug]   top_heap_words: 7132160
+[12434][      debug]   
+[12434][      debug] GC stats for main_process_full:
+[12434][      debug]   minor_words: 9.88024e+07
+[12434][      debug]   promoted_words: 6.71196e+06
+[12434][      debug]   major_words: 7.02058e+06
+[12434][      debug]   minor_collections: 105
+[12434][      debug]   major_collections: 8
+[12434][      debug]   compactions: 0
+[12434][      debug]   top_heap_words: 7132160
+[12434][      debug]   
+[12434][environment] Scheduler: file
+[12434][environment] Cores used: 26
+[12434][environment] 
+[12440][environment] CWD = /src/gimp-2.6.7/plug-ins/file-bmp
+[12440][environment] No .inferconfig file found
+[12440][environment] Project root = /src/gimp-2.6.7/plug-ins/file-bmp
+[12440][environment] INFER_ARGS =   @/tmp/args.tmp.5d5f20
+[12440][environment] command line arguments:   gcc -DHAVE_CONFIG_H -I. -I../.. -I../.. -pthread
+[12440][environment]                           -I/usr/include/gtk-2.0
+[12440][environment]                           -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include
+[12440][environment]                           -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo
+[12440][environment]                           -I/usr/include/pango-1.0 -I/usr/include/atk-1.0
+[12440][environment]                           -I/usr/include/cairo -I/usr/include/pixman-1
+[12440][environment]                           -I/usr/include/gdk-pixbuf-2.0
+[12440][environment]                           -I/usr/include/libpng16 -I/usr/include/pango-1.0
+[12440][environment]                           -I/usr/include/harfbuzz -I/usr/include/pango-1.0
+[12440][environment]                           -I/usr/include/freetype2 -I/usr/include/libpng16
+[12440][environment]                           -I/usr/include/freetype2 -I/usr/include/libpng16
+[12440][environment]                           -I/usr/include/glib-2.0
+[12440][environment]                           -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+[12440][environment]                           -I/usr/local/include -DGIMP_DISABLE_DEPRECATED
+[12440][environment]                           -DGDK_MULTIHEAD_SAFE -DGTK_MULTIHEAD_SAFE -g -O2
+[12440][environment]                           -Wall -Wdeclaration-after-statement
+[12440][environment]                           -Wmissing-prototypes -Wmissing-declarations
+[12440][environment]                           -Winit-self -Wpointer-arith -Wold-style-definition
+[12440][environment]                           -MT bmp-read.o -MD -MP -MF .deps/bmp-read.Tpo -c -o
+[12440][environment]                           bmp-read.o bmp-read.c
+[12440][environment] Available memory at startup: 159525 MB
+[12440][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[12440][      debug] 
+[12440][      debug] *** Beginning capture of file /src/gimp-2.6.7/plug-ins/file-bmp/bmp-read.c ***
+[12440][      debug] Loading the following linters files: /app/infer/infer/bin/../lib/linter_rules/linters.al
+[12440][      debug] Elapsed: 887ms.
+[12440][      debug] GC stats for capture:
+[12440][      debug]   minor_words: 5.5301e+07
+[12440][      debug]   promoted_words: 3.96284e+06
+[12440][      debug]   major_words: 4.14689e+06
+[12440][      debug]   minor_collections: 60
+[12440][      debug]   major_collections: 8
+[12440][      debug]   compactions: 0
+[12440][      debug]   top_heap_words: 4689408
+[12440][      debug]   
+[12440][      debug] GC stats for main_process_full:
+[12440][      debug]   minor_words: 5.6565e+07
+[12440][      debug]   promoted_words: 4.12664e+06
+[12440][      debug]   major_words: 4.32595e+06
+[12440][      debug]   minor_collections: 67
+[12440][      debug]   major_collections: 8
+[12440][      debug]   compactions: 0
+[12440][      debug]   top_heap_words: 4689408
+[12440][      debug]   
+[12440][environment] Scheduler: file
+[12440][environment] Cores used: 26
+[12440][environment] 
+[12446][environment] CWD = /src/gimp-2.6.7/plug-ins/file-bmp
+[12446][environment] No .inferconfig file found
+[12446][environment] Project root = /src/gimp-2.6.7/plug-ins/file-bmp
+[12446][environment] INFER_ARGS =   @/tmp/args.tmp.bc986d
+[12446][environment] command line arguments:   gcc -DHAVE_CONFIG_H -I. -I../.. -I../.. -pthread
+[12446][environment]                           -I/usr/include/gtk-2.0
+[12446][environment]                           -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include
+[12446][environment]                           -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo
+[12446][environment]                           -I/usr/include/pango-1.0 -I/usr/include/atk-1.0
+[12446][environment]                           -I/usr/include/cairo -I/usr/include/pixman-1
+[12446][environment]                           -I/usr/include/gdk-pixbuf-2.0
+[12446][environment]                           -I/usr/include/libpng16 -I/usr/include/pango-1.0
+[12446][environment]                           -I/usr/include/harfbuzz -I/usr/include/pango-1.0
+[12446][environment]                           -I/usr/include/freetype2 -I/usr/include/libpng16
+[12446][environment]                           -I/usr/include/freetype2 -I/usr/include/libpng16
+[12446][environment]                           -I/usr/include/glib-2.0
+[12446][environment]                           -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+[12446][environment]                           -I/usr/local/include -DGIMP_DISABLE_DEPRECATED
+[12446][environment]                           -DGDK_MULTIHEAD_SAFE -DGTK_MULTIHEAD_SAFE -g -O2
+[12446][environment]                           -Wall -Wdeclaration-after-statement
+[12446][environment]                           -Wmissing-prototypes -Wmissing-declarations
+[12446][environment]                           -Winit-self -Wpointer-arith -Wold-style-definition
+[12446][environment]                           -MT bmp-write.o -MD -MP -MF .deps/bmp-write.Tpo -c
+[12446][environment]                           -o bmp-write.o bmp-write.c
+[12446][environment] Available memory at startup: 159525 MB
+[12446][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[12446][      debug] 
+[12446][      debug] *** Beginning capture of file /src/gimp-2.6.7/plug-ins/file-bmp/bmp-write.c ***
+[12446][      debug] Loading the following linters files: /app/infer/infer/bin/../lib/linter_rules/linters.al
+[12446][      debug] Elapsed: 1.422s.
+[12446][      debug] GC stats for capture:
+[12446][      debug]   minor_words: 1.01829e+08
+[12446][      debug]   promoted_words: 6.9125e+06
+[12446][      debug]   major_words: 7.22298e+06
+[12446][      debug]   minor_collections: 104
+[12446][      debug]   major_collections: 8
+[12446][      debug]   compactions: 0
+[12446][      debug]   top_heap_words: 7132160
+[12446][      debug]   
+[12446][      debug] GC stats for main_process_full:
+[12446][      debug]   minor_words: 1.03093e+08
+[12446][      debug]   promoted_words: 7.0763e+06
+[12446][      debug]   major_words: 7.40203e+06
+[12446][      debug]   minor_collections: 111
+[12446][      debug]   major_collections: 8
+[12446][      debug]   compactions: 0
+[12446][      debug]   top_heap_words: 7132160
+[12446][      debug]   
+[12446][environment] Scheduler: file
+[12446][environment] Cores used: 26
+[12446][environment] 
+[12628][environment] CWD = /src/gimp-2.6.7/plug-ins/file-bmp
+[12628][environment] No .inferconfig file found
+[12628][environment] Project root = /src/gimp-2.6.7/plug-ins/file-bmp
+[12628][environment] INFER_ARGS =   @/tmp/args.tmp.4dd903
+[12628][environment] command line arguments:   gcc -g -O2 -Wall -Wdeclaration-after-statement
+[12628][environment]                           -Wmissing-prototypes -Wmissing-declarations
+[12628][environment]                           -Winit-self -Wpointer-arith -Wold-style-definition
+[12628][environment]                           -o .libs/file-bmp bmp.o bmp-read.o bmp-write.o
+[12628][environment]                           -pthread ../../libgimp/.libs/libgimpui-2.0.so
+[12628][environment]                           ../../libgimpwidgets/.libs/libgimpwidgets-2.0.so
+[12628][environment]                           ../../libgimpconfig/.libs/libgimpconfig-2.0.so
+[12628][environment]                           ../../libgimp/.libs/libgimp-2.0.so
+[12628][environment]                           ../../libgimpcolor/.libs/libgimpcolor-2.0.so
+[12628][environment]                           ../../libgimpmath/.libs/libgimpmath-2.0.so
+[12628][environment]                           ../../libgimpbase/.libs/libgimpbase-2.0.so
+[12628][environment]                           -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0
+[12628][environment]                           -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0
+[12628][environment]                           -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0
+[12628][environment]                           -lfontconfig
+[12628][environment]                           /usr/lib/x86_64-linux-gnu/libfreetype.so
+[12628][environment]                           -lgthread-2.0 -lglib-2.0 -pthread
+[12628][environment] Available memory at startup: 159518 MB
+[12628][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[12628][      debug] GC stats for capture:
+[12628][      debug]   minor_words: 9806
+[12628][      debug]   promoted_words: 0
+[12628][      debug]   major_words: 0
+[12628][      debug]   minor_collections: 0
+[12628][      debug]   major_collections: 0
+[12628][      debug]   compactions: 0
+[12628][      debug]   top_heap_words: 188416
+[12628][      debug]   
+[12628][      debug] GC stats for main_process_full:
+[12628][      debug]   minor_words: 1.26902e+06
+[12628][      debug]   promoted_words: 163704
+[12628][      debug]   major_words: 178959
+[12628][      debug]   minor_collections: 8
+[12628][      debug]   major_collections: 1
+[12628][      debug]   compactions: 0
+[12628][      debug]   top_heap_words: 188416
+[12628][      debug]   
+[12628][environment] Scheduler: file
+[12628][environment] Cores used: 26
+[12628][environment] [12432][      debug] GC stats for capture:
+[12432][      debug]   minor_words: 1225
+[12432][      debug]   promoted_words: 0
+[12432][      debug]   major_words: 0
+[12432][      debug]   minor_collections: 0
+[12432][      debug]   major_collections: 0
+[12432][      debug]   compactions: 0
+[12432][      debug]   top_heap_words: 188416
+[12432][      debug]   
+[12432][      debug] GC stats for main_process_full:
+[12432][      debug]   minor_words: 1.38805e+06
+[12432][      debug]   promoted_words: 163280
+[12432][      debug]   major_words: 178535
+[12432][      debug]   minor_collections: 7
+[12432][      debug]   major_collections: 1
+[12432][      debug]   compactions: 0
+[12432][      debug]   top_heap_words: 188416
+[12432][      debug]   
+
+[12642][      phase] ============================================================
+[12642][      phase] = New infer execution begins
+[12642][      phase] ============================================================
+[12642][environment] CWD = /src/gimp-2.6.7/plug-ins/file-bmp
+[12642][environment] No .inferconfig file found
+[12642][environment] Project root = /src/gimp-2.6.7/plug-ins/file-bmp
+[12642][environment] INFER_ARGS =   @/tmp/args.tmp.285311
+[12642][environment] command line arguments:   /app/infer/infer/bin/infer analyze --api-misuse
+[12642][environment]                           --no-starvation --no-self-in-block --no-uninit
+[12642][environment]                           --no-siof --no-racerd --no-liveness
+[12642][environment]                           --no-inefficient-keyset-iterator
+[12642][environment]                           --no-fragment-retains-view --no-biabduction -j 1
+[12642][environment] Available memory at startup: 159617 MB
+[12642][environment] Active checkers: api-misuse (C/C++/ObjC), bufferoverrun-analysis (C/C++/ObjC, Java)
+[12642][environment] Scheduler: file
+[12642][environment] Cores used: 1
+[12642][environment] Infer version v1.0.0-8745e69ef
+[12642][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[12642][environment] 
+[12642][      debug] GC stats for capture:
+[12642][      debug]   minor_words: 50
+[12642][      debug]   promoted_words: 0
+[12642][      debug]   major_words: 0
+[12642][      debug]   minor_collections: 0
+[12642][      debug]   major_collections: 0
+[12642][      debug]   compactions: 0
+[12642][      debug]   top_heap_words: 188416
+[12642][      debug]   
+[12642][   progress] Found 3 source files to analyze in /src/gimp-2.6.7/plug-ins/file-bmp/infer-out
+[12642][   progress] bmp-read.c starting
+[12642][      debug] make subst sym: puffer
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: tmp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: tmp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: buffer
+make subst locs: { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: number
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (234: 1)  line 210, column 8,
+[12642][      debug]   (244: 1)  line 195, column 8 }
+make subst sym: size
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: width
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12 }
+make subst sym: height
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12 }
+make subst sym: cmap
+make subst locs: 
+[12642][      debug] { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: ncols
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12 }
+make subst sym: bpp
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12 }
+make subst sym: compression
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: rowbytes
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12 }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: error
+make subst locs: { error }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: buffer
+make subst locs: { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: number
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (234: 1)  line 210, column 8,
+[12642][      debug]   (244: 1)  line 195, column 8 }
+make subst sym: size
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: width
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12 }
+make subst sym: height
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12 }
+make subst sym: cmap
+make subst locs: 
+[12642][      debug] { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: ncols
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12 }
+make subst sym: bpp
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12 }
+make subst sym: compression
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (186: 1)  line 251, column 12 }
+make subst sym: rowbytes
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12 }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: error
+make subst locs: { error }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: buffer
+make subst locs: { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: number
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12,
+[12642][      debug]   (234: 1)  line 210, column 8,
+[12642][      debug]   (244: 1)  line 195, column 8 }
+make subst sym: size
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: width
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: height
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: cmap
+make subst locs: 
+[12642][      debug] { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: ncols
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: bpp
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: compression
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: rowbytes
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: error
+make subst locs: { error }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: tmp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: tmp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: buffer
+make subst locs: { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: number
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12,
+[12642][      debug]   (234: 1)  line 210, column 8,
+[12642][      debug]   (244: 1)  line 195, column 8 }
+make subst sym: size
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: width
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: height
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: cmap
+make subst locs: 
+[12642][      debug] { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: ncols
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: bpp
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: compression
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: rowbytes
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: error
+make subst locs: { error }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: tmp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: tmp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: puffer
+make subst locs: { buffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: buffer
+make subst locs: { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: number
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12,
+[12642][      debug]   (234: 1)  line 210, column 8,
+[12642][      debug]   (244: 1)  line 195, column 8 }
+make subst sym: size
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: fd
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: width
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: height
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: cmap
+make subst locs: 
+[12642][      debug] { ColorMap }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: ncols
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: bpp
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: compression
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: rowbytes
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { (103: 1)  line 224, column 12,
+[12642][      debug]   (186: 1)  line 251, column 12,
+[12642][      debug]   (215: 2)  line 344, column 12 }
+make subst sym: grey
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: masks
+make subst locs: { masks }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: error
+make subst locs: { error }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+
+[12642][   progress] bmp-read.c DONE
+[12642][   progress] bmp-write.c starting
+[12642][      debug] make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: a
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: a
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: a
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: a
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: a
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: a
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize,
+[12642][      debug]   bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize,
+[12642][      debug]   bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize,
+[12642][      debug]   bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize,
+[12642][      debug]   bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize,
+[12642][      debug]   bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize,
+[12642][      debug]   bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize,
+[12642][      debug]   bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { MapSize,
+[12642][      debug]   bpp }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: a
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: r
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: g
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: b
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: a
+make subst locs: _|_
+make subst int overflow: src
+make subst user input: 
+[12642][      debug] { src }
+make subst sym: buf
+make subst locs: { buf }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: primary
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: secondary
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: primary
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: secondary
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { xresolution }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { yresolution }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: f
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: red
+make subst locs: { Red }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: green
+make subst locs: { Green }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: blue
+make subst locs: { Blue }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: size
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: f
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: src
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: width
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: height
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: encoded
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bpp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: spzeile
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: MapSize
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: rgb_format
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { xresolution }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { yresolution }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: f
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: red
+make subst locs: { Red }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: green
+make subst locs: { Green }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: blue
+make subst locs: { Blue }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: size
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: f
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: src
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: width
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: height
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: encoded
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bpp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: spzeile
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: MapSize
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: rgb_format
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { xresolution }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { yresolution }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: f
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: red
+make subst locs: { Red }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: green
+make subst locs: { Green }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: blue
+make subst locs: { Blue }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: size
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: f
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: src
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: width
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: height
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: encoded
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bpp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: spzeile
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: MapSize
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: rgb_format
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: primary
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: secondary
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: primary
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: secondary
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { xresolution }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { yresolution }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: f
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: red
+make subst locs: { Red }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: green
+make subst locs: { Green }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: blue
+make subst locs: { Blue }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: size
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: wert
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bopuffer
+make subst locs: { puffer }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: f
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: src
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: width
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: height
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: encoded
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: channels
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: bpp
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: spzeile
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: MapSize
+make subst locs: _|_
+make subst int overflow: May Overflow
+make subst user input: 
+[12642][      debug] { colors }
+make subst sym: rgb_format
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+
+[12642][   progress] bmp-write.c DONE
+[12642][   progress] bmp.c starting
+[12642][      debug] make subst sym: name
+make subst locs: { param->data.d_string }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: error
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: filename
+make subst locs: { param->data.d_string }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: image
+make subst locs: _|_
+make subst int overflow: param->data.d_int32
+make subst user input: 
+[12642][      debug] { param->data.d_int32 }
+make subst sym: drawable_ID
+make subst locs: _|_
+make subst int overflow: param->data.d_int32
+make subst user input: 
+[12642][      debug] { param->data.d_int32 }
+make subst sym: error
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: filename
+make subst locs: { param->data.d_string }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: image
+make subst locs: _|_
+make subst int overflow: param->data.d_int32
+make subst user input: 
+[12642][      debug] { param->data.d_int32 }
+make subst sym: drawable_ID
+make subst locs: _|_
+make subst int overflow: param->data.d_int32
+make subst user input: 
+[12642][      debug] { param->data.d_int32 }
+make subst sym: error
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: name
+make subst locs: { param->data.d_string }
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+make subst sym: error
+make subst locs: _|_
+make subst int overflow: No Overflow
+make subst user input: 
+[12642][      debug] { }
+
+[12642][   progress] bmp.c DONE
+[12642][      debug] Backend stats:
+[12642][      debug]       summary_file_try_load= 236
+[12642][      debug]       summary_read_from_disk= 11
+[12642][      debug]       summary_cache_hits= 22 (8%)
+[12642][      debug]       summary_cache_misses= 225
+[12642][      debug]       ondemand_procs_analyzed= 25
+[12642][      debug]       ondemand_local_cache_hits= 2147 (94%)
+[12642][      debug]       ondemand_local_cache_misses= 118
+[12642][      debug]       proc_locker_lock_time_user= 0.00000000
+[12642][      debug]       proc_locker_lock_time_sys= 0.00000000
+[12642][      debug]       proc_locker_lock_time_wall= 0.00000000
+[12642][      debug]       proc_locker_unlock_time_user= 0.00000000
+[12642][      debug]       proc_locker_unlock_time_sys= 0.00000000
+[12642][      debug]       proc_locker_unlock_time_wall= 0.00000000
+[12642][      debug]       restart_scheduler_useful_time_user= 0.00000000
+[12642][      debug]       restart_scheduler_useful_time_sys= 0.00000000
+[12642][      debug]       restart_scheduler_useful_time_wall= 0.00000000
+[12642][      debug]       restart_scheduler_total_time_user= 0.00000000
+[12642][      debug]       restart_scheduler_total_time_sys= 0.00000000
+[12642][      debug]       restart_scheduler_total_time_wall= 0.00000000
+[12642][      debug]       
+[12642][      debug] GC stats for backend_stats.:
+[12642][      debug]   minor_words: 2.24263e+07
+[12642][      debug]   promoted_words: 1.35971e+06
+[12642][      debug]   major_words: 3.39526e+06
+[12642][      debug]   minor_collections: 24
+[12642][      debug]   major_collections: 4
+[12642][      debug]   compactions: 0
+[12642][      debug]   top_heap_words: 2680320
+[12642][      debug]   
+[12642][      debug] Analysis phase finished in 343ms
+[12642][      debug] backend_stats.scheduler_process_analysis_time_user= 0.31497100
+[12642][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.02686600
+[12642][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.34250638
+[12642][      debug] GC stats for analysis_scheduler:
+[12642][      debug]   minor_words: 2.24349e+07
+[12642][      debug]   promoted_words: 1.35971e+06
+[12642][      debug]   major_words: 3.39578e+06
+[12642][      debug]   minor_collections: 24
+[12642][      debug]   major_collections: 4
+[12642][      debug]   compactions: 0
+[12642][      debug]   top_heap_words: 2680320
+[12642][      debug]   
+[12642][      debug] GC stats for report:
+[12642][      debug]   minor_words: 5150
+[12642][      debug]   promoted_words: 0
+[12642][      debug]   major_words: 294015
+[12642][      debug]   minor_collections: 0
+[12642][      debug]   major_collections: 0
+[12642][      debug]   compactions: 0
+[12642][      debug]   top_heap_words: 3082752
+[12642][      debug]   
+[12642][      debug] GC stats for main_process_full:
+[12642][      debug]   minor_words: 2.38313e+07
+[12642][      debug]   promoted_words: 1.53216e+06
+[12642][      debug]   major_words: 3.87749e+06
+[12642][      debug]   minor_collections: 32
+[12642][      debug]   major_collections: 5
+[12642][      debug]   compactions: 0
+[12642][      debug]   top_heap_words: 3082752
+[12642][      debug]   

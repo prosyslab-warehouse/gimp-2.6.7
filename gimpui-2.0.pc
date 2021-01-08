@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GIMP UI
+Description: GIMP User Interface Library
+Version: 2.6.7
+Requires: gimp-2.0 >= 2.6 gtk+-2.0 >= 2.12.5
+Libs: -L${libdir} -lgimpui-2.0 -lgimpwidgets-2.0 -lgimpmodule-2.0
+Cflags: -I${includedir}/gimp-2.0
